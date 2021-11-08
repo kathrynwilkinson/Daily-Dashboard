@@ -1,0 +1,11 @@
+.time-zone-container {
+    width: 100%;
+    height: auto;
+}
+
+#time-zones {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin: 20px;
+}
