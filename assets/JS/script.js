@@ -1,8 +1,11 @@
+//Updating the time every second
 let pacificTime = setInterval(pacificTimer, 1000);
 let mountainTime = setInterval(mountainTimer, 1000);
 let centralTime = setInterval(centralTimer, 1000);
 let easternTime = setInterval(easternTimer, 1000);
 
+
+// Creating new times for each timeZone
 function pacificTimer() {
     let day = new Date();
     let time = day.toLocaleTimeString('en-US', { timeZone: 'America/Los_Angeles' });
