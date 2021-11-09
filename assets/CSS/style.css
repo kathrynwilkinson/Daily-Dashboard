@@ -1,3 +1,4 @@
+/* Global Styling */
 :root{
     --accent-color: #2CBDF6;
     --primary-txt: #FFFFFF;
@@ -13,9 +14,23 @@
 	font-size: 100%;
     margin: 0;
 	padding: 0;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    font-family: 'Red Hat Mono', monospace;
 }
 
+/* Header Styling */
+header {
+    background: var(--darkest);
+    color: var(--accent-color);
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    margin: auto;
+    padding: 1em 0 1em 0;
+    width: 100%;
+}
+
+/* Body Styling */
 body{
     background: var(--darker);
     color: var(--secondary-txt);
@@ -25,17 +40,8 @@ body{
     width: 100%;
 }
 
-header {
-    background: var(--darkest);
-    color: var(--accent-color);
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: 2em 0 2em 0;
-    width: 100%;
-}
-
-.usa-clock {
+/* Time Zone Clock Section Styling */
+.clock {
     height: auto;
     width: 100%;
 }
@@ -43,8 +49,8 @@ header {
 #time-zone-container {
     align-items: center;
     display: flex;
-    justify-content:space-around;
-    margin: 20px;
+    justify-content: space-around;
+    margin: 2em;
 }
 
 .time-zone-identifier,
@@ -52,4 +58,15 @@ header {
     display: flex;
     justify-content: center;
     margin: auto;
+}
+
+/* Class Timer Styling */
+.class-timer {
+    background: var(--background);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 1em;
+    font-size: 2em;
+    width: 6em;
 }
