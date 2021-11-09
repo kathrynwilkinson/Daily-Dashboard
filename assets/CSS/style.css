@@ -25,3 +25,10 @@ header {
     justify-content:space-around;
     margin: 20px;
 }
+
+.time-zone-identifier,
+.time {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
