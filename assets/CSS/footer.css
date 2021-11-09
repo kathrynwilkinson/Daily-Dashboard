@@ -1,0 +1,32 @@
+
+/* PAGE FOOTER STYLE */
+footer {
+    display: flex;
+        align-content: flex-end;
+        flex-direction: row;
+        justify-content: space-between;
+    font-size: 8px;
+    margin-top: 110px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    position: absolute;
+        bottom: 0;
+    width: 100%;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    width: 100%;
+}
+.footer-text,
+a.footer-text {
+    color: var(--subtle-txt);
+    display: flex;
+    padding: 7px;
+    text-decoration: none;
+}
+a.footer-text:hover {
+    color: rgb(36, 107, 107);
+    transition: all 0.75s ease;
+}
