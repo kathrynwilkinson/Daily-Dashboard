@@ -25,14 +25,12 @@ body{
     height: auto;
     width: 100%;
 }
-
 #time-zone-container {
     align-items: center;
     display: flex;
     justify-content: space-around;
     margin: 2em;
 }
-
 .time-zone-identifier,
 .time {
     display: flex;
