@@ -8,11 +8,11 @@
 }
 
 * {
+    border: 0;
+    font: inherit;
+	font-size: 100%;
     margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 
@@ -29,20 +29,20 @@ header {
     background: var(--darkest);
     color: var(--accent-color);
     display: flex;
-    margin: auto;
     justify-content: center;
+    margin: auto;
     padding: 2em 0 2em 0;
     width: 100%;
 }
 
 .usa-clock {
-    width: 100%;
     height: auto;
+    width: 100%;
 }
 
 #time-zone-container {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content:space-around;
     margin: 20px;
 }
@@ -50,6 +50,6 @@ header {
 .time-zone-identifier,
 .time {
     display: flex;
-    margin: auto;
     justify-content: center;
+    margin: auto;
 }
