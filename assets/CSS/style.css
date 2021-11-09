@@ -14,12 +14,12 @@ header {
     padding: 2em 0 2em 0;
 }
 
-.time-wrapper {
+.usa-clock {
     width: 100%;
     height: auto;
 }
 
-#time-zones {
+#time-zone-container {
     display: flex;
     align-items: center;
     justify-content:space-around;
