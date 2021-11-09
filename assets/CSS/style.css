@@ -1,21 +1,16 @@
-:root{
-    --accent-color: #2CBDF6;
-    --primary-txt: #FFFFFF;
-    --secondary-txt: #B3B3B3;
-    --background:#282828;
-    --darker: #181818;
-    --darkest: #121212;
+/* Header Styling */
+header {
+    background: var(--darkest);
+    color: var(--accent-color);
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    margin: auto;
+    padding: 1em 0 1em 0;
+    width: 100%;
 }
 
-* {
-    border: 0;
-    font: inherit;
-	font-size: 100%;
-    margin: 0;
-	padding: 0;
-	vertical-align: baseline;
-}
-
+/* Body Styling */
 body{
     background: var(--darker);
     color: var(--secondary-txt);
@@ -25,31 +20,33 @@ body{
     width: 100%;
 }
 
-header {
-    background: var(--darkest);
-    color: var(--accent-color);
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: 2em 0 2em 0;
-    width: 100%;
-}
-
-.usa-clock {
+/* Time Zone Clock Section Styling */
+.clock {
     height: auto;
     width: 100%;
 }
-
 #time-zone-container {
     align-items: center;
     display: flex;
-    justify-content:space-around;
-    margin: 20px;
+    justify-content: space-around;
+    margin: 2em;
 }
-
 .time-zone-identifier,
 .time {
     display: flex;
     justify-content: center;
     margin: auto;
+    padding: 0.1em 0.5em;
+    white-space: nowrap;
+}
+
+/* Class Timer Styling */
+.class-timer {
+    background: var(--background);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 1em;
+    font-size: 2em;
+    width: 6em;
 }

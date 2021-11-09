@@ -1,0 +1,20 @@
+/* Global Styling */
+:root{
+    --accent-color: #2CBDF6;
+    --primary-txt: #FFFFFF;
+    --secondary-txt: #B3B3B3;
+    --subtle-txt: #575757;
+    --background:#282828;
+    --darker: #181818;
+    --darkest: #121212;
+}
+
+* {
+    border: 0;
+    font: inherit;
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 100%;
+    margin: 0;
+	padding: 0;
+    vertical-align: baseline;
+}

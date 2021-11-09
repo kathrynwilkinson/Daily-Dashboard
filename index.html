@@ -1,42 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/CSS/style.css">
-    <title>Generation Daily Dashboard</title>
-</head>
-<header>
-    PMAK KAMP
-</header>
-<body>
-    <div class="usa-clock">
-        <div id="time-zone-container">
-            <div id="pst">
-                <div class="time-zone-identifier" id="pst-display">pacific</div>
-                <h2 class="time" id="pacificTime"></h2>
-            </div>
-            <div id="mst">
-                <div class="time-zone-identifier" id="mst-display">mountain</div>
-                <h2 class="time" id="mountainTime"></h2>
-            </div>
-            <div id="cst">
-                <div class="time-zone-identifier" id="cst-display">central</div>
-                <h2 class="time" id="centralTime"></h2>
-            </div>
-            <div id="est">
-                <div class="time-zone-identifier" id="est-display">eastern</div>
-                <h2 class="time" id="easternTime"></h2>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./assets/CSS/reset.css">
+        <link rel="stylesheet" href="./assets/CSS/style.css">
+        <link rel="stylesheet" href="./assets/CSS/nav.css">
+        <link rel="stylesheet" href="./assets/CSS/footer.css">
+        <title>Generation Daily Dashboard</title>
+    </head>
+    <header>
+        <h1><span></span>KAMP</h1>
+        <div id="menu"><img id=menu-icon src="assets/images/menu-2.PNG"></div>
+    </header>
+    <body>
+        <div class="clock">
+            <div id="time-zone-container">
+                <div id="pst">
+                    <div class="time-zone-identifier" id="pst-display">pacific</div>
+                    <h2 class="time" id="pacificTime"></h2>
+                </div>
+                <div id="mst">
+                    <div class="time-zone-identifier" id="mst-display">mountain</div>
+                    <h2 class="time" id="mountainTime"></h2>
+                </div>
+                <div id="cst">
+                    <div class="time-zone-identifier" id="cst-display">central</div>
+                    <h2 class="time" id="centralTime"></h2>
+                </div>
+                <div id="est">
+                    <div class="time-zone-identifier" id="est-display">eastern</div>
+                    <h2 class="time" id="easternTime"></h2>
+                </div>
             </div>
         </div>
-    </div>
+        <div class="class-timer">00:00:00</div>
 
+        <footer>
+            <div class="footer-container">
+                <div class="copyright footer-text">
+                    &copy; KAMP 2021
+                </div>
+                <div class="term-of-use">
+                    <a href='#' class="footer-text">TERMS OF USE</a>
+                </div>
+                <div class="privacy-policy">
+                    <a href='#' class="footer-text">PRIVACY POLICY</a>
+                </div>
+                <div class="about">
+                    <a href='#' class="footer-text">ABOUT</a>
+                </div>
+                <div class="contact">
+                    <a href='#' class="footer-text">CONTACT</a>
+                </div>
+            </div>
+        </footer>
+        <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/gofox" title="GOFOX">GOFOX</a> from <a
+                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
 
-
-    <script src="./assets/JS/script.js"></script>
-</body>
-
-
+        <script src="./assets/JS/script.js"></script>
+    </body>
 </html>

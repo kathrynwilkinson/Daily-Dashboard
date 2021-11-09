@@ -1,0 +1,8 @@
+/* Menu / Nav Styling */
+#menu {
+    position: absolute;
+        right: 1em;
+}
+#menu-icon {
+    height: 1em;
+}
