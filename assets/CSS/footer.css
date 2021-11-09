@@ -1,5 +1,4 @@
-
-/* PAGE FOOTER STYLE */
+/* Footer Styling */
 footer {
     display: flex;
         align-content: flex-end;
@@ -15,7 +14,7 @@ footer {
 }
 .footer-container {
     display: flex;
-    justify-content: space-evenly;
+        justify-content: space-evenly;
     padding-left: 20px;
     width: 100%;
 }
