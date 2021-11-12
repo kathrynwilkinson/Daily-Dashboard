@@ -1,0 +1,43 @@
+#randomNameButtons {
+    display: flex;
+}
+
+#randomNameButtons button {
+    -webkit-appearance: button;
+    font-size: inherit;
+    color: var(--accent-color);
+    background: transparent;
+    border: solid 2px var(--accent-color);
+    padding: 10px;
+    transition: background .4s ease, color .4s ease;
+    border-radius: 2px;
+    margin: 0 5px;
+  }
+
+  #randomNamesButton {
+      width: 200px;
+  }
+
+  #clearButton {
+      width: 100px;
+  }
+
+  #randomNameButtons button:hover {
+    cursor: pointer;
+    background: white;
+    color: black;
+  }
+
+#nameList {
+    list-style-type: none;
+    color: black;
+    margin: 10px;
+}
+
+#nameListItem {
+    height: 30px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+}
+  
