@@ -2,7 +2,7 @@ const names = ['Alyssa', 'Raven', 'Yannick', 'Anthony T.', 'Martin', 'Alexandra'
 
 const getNameButton = document.getElementById('randomNamesButton');
 const clearButton = document.getElementById('clearButton');
-const namesList = document.getElementById('namesList');
+const namesList = document.getElementById('nameList');
 
 
 // Function clearing name from list div
