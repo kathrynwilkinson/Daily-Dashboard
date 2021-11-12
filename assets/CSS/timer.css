@@ -48,7 +48,7 @@
     text-align: right;
     font-size: 42px;
     background: transparent;
-    color: whitesmoke;
+    color: var(--accent-color);
     font-weight: bold;
     border: none;
     transition: background .8s ease;
@@ -86,9 +86,9 @@
   #controls button {
     -webkit-appearance: button;
     font-size: inherit;
-    color: white;
+    color: var(--accent-color);
     background: transparent;
-    border: solid 2px white;
+    border: solid 2px var(--accent-color);
     padding: 10px;
     width: 100px;
     transition: background .4s ease, color .4s ease;
