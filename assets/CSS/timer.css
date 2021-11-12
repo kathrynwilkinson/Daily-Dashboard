@@ -20,7 +20,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background: rgba(1, 7, 39, 0.4);
+    /* background: rgba(1, 7, 39, 0.4); */
     margin: auto;
   }
   @media only screen and (min-width: 768px) {
