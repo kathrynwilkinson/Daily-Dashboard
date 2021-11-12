@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./assets/CSS/style.css">
     <link rel="stylesheet" href="./assets/CSS/nav.css">
     <link rel="stylesheet" href="./assets/CSS/footer.css">
+    <link rel="stylesheet" href="./assets/CSS/timer.css">
     <title>Generation Daily Dashboard</title>
 </head>
 <header>
@@ -42,7 +43,18 @@
             </div>
         </div>
     </div>
-    <div class="class-timer">00:00:00</div>
+    <div id="clock">
+        <form>
+            <input id="min" type="number" step="1" min="0" max="59" value="25"></input>
+            <span>:</span>
+            <input id="sec" type="number" step="1" min="0" max="59" value="00"></input>
+        </form>
+        <div id="controls">
+            <button id="start">START</button>
+            <button id="reset">RESET</button>
+        </div>
+    </div>
+    <!-- <div class="class-timer">00:00:00</div> -->
     <!-- <iframe src="https://open.spotify.com/embed/playlist/2fzPI90D1Sd6SkQvqNaMvj?utm_source=generator" width="100%"
         height="380" frameBorder="0" allowfullscreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> -->
@@ -69,7 +81,8 @@
     <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/gofox" title="GOFOX">GOFOX</a> from <a
                 href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
 
-    <script src="./assets/JS/script.js"></script>
+    <script src="./assets/JS/clock.js"></script>
+    <script src="./assets/JS/timer.js"></script>
 </body>
 
 </html>
