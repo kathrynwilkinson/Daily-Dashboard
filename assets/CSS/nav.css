@@ -2,8 +2,7 @@
 
 
 #menu-wrapper {
-    display: flex;
-    flex-direction: column;
+
 }
 
 
@@ -15,9 +14,14 @@
 }
 
 #menu-icon {
+    position: absolute;
+        right: 1em;
     display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
     height: 1em;
     width: 1em;
+
 }
 
 /* #menu-icon:hover {
