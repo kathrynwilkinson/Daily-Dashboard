@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+ 
+  
+  #clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(1, 7, 39, 0.4);
+    margin: auto;
+  }
+  @media only screen and (min-width: 768px) {
+    #clock {
+      flex-direction: row;
+      padding: 40px;
+    }
+  }
+  
+  #clock form {
+    margin-bottom: 20px;
+    display: flex;
+  }
+  @media only screen and (min-width: 768px) {
+    #clock form {
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+  }
+  
+  #clock input {
+    display: inline-block;
+    padding-left: 10px;
+    width: 70px;
+    text-align: right;
+    font-size: 42px;
+    background: transparent;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    transition: background .8s ease;
+  }
+  @media only screen and (min-width: 768px) {
+    #clock input {
+      font-size: 84px;
+      width: 120px;
+    }
+  }
+  #clock input:focus:not([disabled]), 
+  #clock input:hover:not([disabled]) {
+    background: rgba(0, 0, 0, .2);
+  }
+  #clock form span {
+    font-size: 42px;
+  }
+  @media only screen and (min-width: 768px) {
+    #clock form span {
+      font-size: 84px;
+    }
+  }
+  
+  #controls {
+    display: flex;
+  }
+  @media only screen and (min-width: 768px) {
+    #controls {
+      flex-direction: column;
+      margin-left: 20px;
+      font-size: 20px;
+    }
+  }
+  
+  #controls button {
+    -webkit-appearance: button;
+    font-size: inherit;
+    color: white;
+    background: transparent;
+    border: solid 2px white;
+    padding: 10px;
+    width: 100px;
+    transition: background .4s ease, color .4s ease;
+    border-radius: 2px;
+    margin: 0 5px;
+  }
+  @media only screen and (min-width: 768px) {
+    #controls button {
+      margin: 10px 0;
+    }
+  }
+  #controls button:hover,
+  #controls button:focus {
+    cursor: pointer;
+    background: white;
+    color: black;
+  }
+  
+  
