@@ -1,4 +1,11 @@
-//Updating the time every second
+// Nav Menu functionality
+function displayMenu () {
+    const menu = document.getElementById("menu-icon")
+}
+
+
+
+// Updating the time every second
 let pacificTime = setInterval(pacificTimer, 1000);
 let mountainTime = setInterval(mountainTimer, 1000);
 let centralTime = setInterval(centralTimer, 1000);

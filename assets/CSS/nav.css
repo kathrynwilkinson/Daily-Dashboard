@@ -1,8 +1,32 @@
 /* Menu / Nav Styling */
+
+
+#menu-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
 #menu {
     position: absolute;
         right: 1em;
+    display: flex;
+        flex-direction: column;
 }
+
 #menu-icon {
+    display: flex;
     height: 1em;
+    width: 1em;
+}
+
+/* #menu-icon:hover {
+
+} */
+
+.menu-links {
+    color: var(--secondary-txt);
+    font-size: 0.5em;
+    padding: 0.1em;
+    text-decoration: none;
 }
