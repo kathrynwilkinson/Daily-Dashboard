@@ -7,6 +7,7 @@
     --background:#282828;
     --darker: #181818;
     --darkest: #121212;
+    --hover: rgba(85, 187, 255, 0.15);
 }
 
 * {
