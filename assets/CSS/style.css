@@ -23,6 +23,8 @@ body{
     flex-direction: column;
     height: 100%;
     width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Time Zone Clock Section Styling */

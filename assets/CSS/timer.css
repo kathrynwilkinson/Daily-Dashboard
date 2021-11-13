@@ -1,103 +1,60 @@
-/* reset css page is linked - no need to have a goobal selector */
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
+/* find root color palette and body styling in reset css file */
 
+#timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
 
+#timer form {
+  margin-bottom: 20px;
+  display: flex;
+}
 
+#timer input {
+  display: inline-block;
+  padding-left: 0.1em;
+  width: 70px;
+  /* text-align: right; */
+  font-size: 3em;
+  background: transparent;
+  color: var(--accent-color);
+  font-weight: bold;
+  border: none;
+  transition: background .8s ease;
+}
 
-  #clock {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    /* background: rgba(1, 7, 39, 0.4); */
-    margin: auto;
-  }
-  @media only screen and (min-width: 768px) {
-    #clock {
-      flex-direction: row;
-      padding: 40px;
-    }
-  }
+#timer input:focus:not([disabled]),
+#timer input:hover:not([disabled]) {
+  background: rgba(0, 0, 0, .2);
+}
 
-  #clock form {
-    margin-bottom: 20px;
-    display: flex;
-  }
-  @media only screen and (min-width: 768px) {
-    #clock form {
-      margin-right: 20px;
-      margin-bottom: 0;
-    }
-  }
+#timer form span {
+  font-size: 3em;
+}
 
-  #clock input {
-    display: inline-block;
-    padding-left: 10px;
-    width: 70px;
-    text-align: right;
-    font-size: 42px;
-    background: transparent;
-    color: var(--accent-color);
-    font-weight: bold;
-    border: none;
-    transition: background .8s ease;
-  }
-  @media only screen and (min-width: 768px) {
-    #clock input {
-      font-size: 84px;
-      width: 120px;
-    }
-  }
-  #clock input:focus:not([disabled]),
-  #clock input:hover:not([disabled]) {
-    background: rgba(0, 0, 0, .2);
-  }
-  #clock form span {
-    font-size: 42px;
-  }
-  @media only screen and (min-width: 768px) {
-    #clock form span {
-      font-size: 84px;
-    }
-  }
+#controls {
+  display: flex;
+}
 
-  #controls {
-    display: flex;
-  }
-  @media only screen and (min-width: 768px) {
-    #controls {
-      flex-direction: column;
-      margin-left: 20px;
-      font-size: 20px;
-    }
-  }
+#controls button {
+  -webkit-appearance: button;
+  font-size: inherit;
+  color: var(--accent-color);
+  background: transparent;
+  border: solid 2px var(--accent-color);
+  padding: 0.5em;
+  width: auto;
+  transition: background .4s ease, color .4s ease;
+  border-radius: 2px;
+  margin: 0 5px;
+}
 
-  #controls button {
-    -webkit-appearance: button;
-    font-size: inherit;
-    color: var(--accent-color);
-    background: transparent;
-    border: solid 2px var(--accent-color);
-    padding: 10px;
-    width: 100px;
-    transition: background .4s ease, color .4s ease;
-    border-radius: 2px;
-    margin: 0 5px;
-  }
-  @media only screen and (min-width: 768px) {
-    #controls button {
-      margin: 10px 0;
-    }
-  }
-  #controls button:hover,
-  #controls button:focus {
-    cursor: pointer;
-    background: white;
-    color: black;
-  }
-
+#controls button:hover,
+#controls button:focus {
+  cursor: pointer;
+  background: white;
+  color: black;
+}

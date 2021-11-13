@@ -1,0 +1,46 @@
+/* Timer Media Queries */
+
+/*
+
+  @media only screen and (min-width: 768px) {
+    #timer {
+      flex-direction: row;
+      padding: 40px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    #timer form {
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    #timer input {
+      font-size: 84px;
+      width: 120px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    #timer form span {
+      font-size: 84px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    #controls {
+      flex-direction: column;
+      margin-left: 20px;
+      font-size: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    #controls button {
+      margin: 10px 0;
+    }
+  }
+
+  */
