@@ -1,4 +1,4 @@
-const names = ['Alyssa', 'Raven', 'Yannick', 'Anthony T.', 'Martin', 'Alexandra', 'Hector', 'Perom', 'Kaleab', 'Willis', 'Anthony B.', 'Ghislaine', 'Jennet', 'Vishva', 'Sara', 'Noah', 'Iryna', 'Jon', 'Phillip', 'Kathryn'];
+const names = ['Amina', 'Babajide', 'Kenneth', 'Wayeu', 'Myesha', 'Stteffanny', 'Valentina', 'Victoria', 'Derrick', 'Mesfin', 'Yonatan', 'Catherine', 'Alex Latte', 'Danielle', 'Anthony Lomax', 'Yohannes', 'Mathew Olajide', 'Slav', 'Hemalatha', 'Sri', 'Daniel', 'Saul', 'Santosh', 'Humaira', 'Alex Torres', 'Aboma', 'Helen', 'Synquis'];
 
 const getNameButton = document.getElementById('randomNamesButton');
 const clearButton = document.getElementById('clearButton');
