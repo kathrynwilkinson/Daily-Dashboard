@@ -1,7 +1,9 @@
 
 let menu = document.getElementById("menu-icon");
+let closeBtn = document.getElementById("closeBtn");
 
 
+closeBtn.addEventListener('click', closeNav);
 menu.addEventListener('click', openNav);
 
 
