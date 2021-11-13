@@ -1,13 +1,14 @@
-body {
+/* reset css page is linked - no need to have a goobal selector */
+  body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
-  
-  
- 
-  
+
+
+
+
   #clock {
     display: flex;
     flex-direction: column;
@@ -22,7 +23,7 @@ body {
       padding: 40px;
     }
   }
-  
+
   #clock form {
     margin-bottom: 20px;
     display: flex;
@@ -33,7 +34,7 @@ body {
       margin-bottom: 0;
     }
   }
-  
+
   #clock input {
     display: inline-block;
     padding-left: 10px;
@@ -52,7 +53,7 @@ body {
       width: 120px;
     }
   }
-  #clock input:focus:not([disabled]), 
+  #clock input:focus:not([disabled]),
   #clock input:hover:not([disabled]) {
     background: rgba(0, 0, 0, .2);
   }
@@ -64,7 +65,7 @@ body {
       font-size: 84px;
     }
   }
-  
+
   #controls {
     display: flex;
   }
@@ -75,7 +76,7 @@ body {
       font-size: 20px;
     }
   }
-  
+
   #controls button {
     -webkit-appearance: button;
     font-size: inherit;
@@ -99,5 +100,4 @@ body {
     background: white;
     color: black;
   }
-  
-  
+
