@@ -1,5 +1,4 @@
 /* reset css page is linked - no need to have a goobal selector */
-
   body {
     display: flex;
     flex-direction: column;
@@ -101,3 +100,4 @@
     background: white;
     color: black;
   }
+
