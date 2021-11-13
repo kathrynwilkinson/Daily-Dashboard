@@ -5,9 +5,9 @@
 #randomNameButtons button {
     -webkit-appearance: button;
     font-size: inherit;
-    color: var(--accent-color);
+    color: var(--accent-01);
     background: transparent;
-    border: solid 2px var(--accent-color);
+    border: solid 2px var(--accent-01);
     padding: 10px;
     transition: background .4s ease, color .4s ease;
     border-radius: 2px;
@@ -24,19 +24,19 @@
 
   #randomNameButtons button:hover {
     cursor: pointer;
-    background: var(--hover);
+    background: var(--button-hover);
     color: black;
   }
 
 #nameList {
     list-style-type: none;
-    color: black;
+    color: var(--accent-03);
     margin: 10px;
 }
 
 #nameListItem {
     height: 30px;
     width: 300px;
-    background-color: white;
+    background-color: var(--background-01);
     text-align: center;
 }

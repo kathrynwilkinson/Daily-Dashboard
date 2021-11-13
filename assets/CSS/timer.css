@@ -26,7 +26,7 @@
   text-align: right;
   font-size: 3.75em;
   background: transparent;
-  color: var(--accent-color);
+  color: var(--accent-01);
   font-weight: bold;
   border: none;
   transition: background .8s ease;
@@ -39,7 +39,7 @@
 
 #timer-container input:focus:not([disabled]),
 #timer-container input:hover:not([disabled]) {
-  background: rgba(0, 0, 0, .2);
+  background: var(--background-03);
 }
 
 #timer-colon {
@@ -68,24 +68,34 @@
 
 #controls {
   display: flex;
+    justify-content: space-evenly;
+  width: 10em;
 }
 
 #controls button {
   -webkit-appearance: button;
-  font-size: inherit;
-  color: var(--accent-color);
+  font-size: 0.75em;
+  color: var(--txt-03);
   background: transparent;
-  border: solid 2px var(--accent-color);
-  padding: 0.5em;
-  width: auto;
+  border: solid 2px var(--button-hover);
+  width: 75px;
+  height: 30px;
   transition: background .4s ease, color .4s ease;
   border-radius: 2px;
-  margin: 0 5px;
+  margin: auto;
 }
 
 #controls button:hover,
 #controls button:focus {
   cursor: pointer;
-  background: white;
-  color: black;
+  background: var(--button-hover);
+  border: solid 2px var(--button-01);
+  color: var(--accent-01);
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  font-size: 0.85em;
+  font-weight: 500;
+  margin: auto;
+  transition: .4s ease;
 }

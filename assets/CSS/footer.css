@@ -20,12 +20,12 @@ footer {
 }
 .footer-text,
 a.footer-text {
-    color: var(--subtle-txt);
+    color: var(--txt-03);
     display: flex;
     padding: 7px;
     text-decoration: none;
 }
 a.footer-text:hover {
-    color: rgb(36, 107, 107);
+    color: var(--button-hover);
     transition: all 0.75s ease;
 }

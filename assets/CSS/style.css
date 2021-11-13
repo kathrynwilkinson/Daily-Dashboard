@@ -1,13 +1,13 @@
 /* Header Styling */
 header {
-    background: var(--darkest);
+    background: var(--background-03);
     font-size: 2em;
     margin: auto;
     padding: 0.25em 0 0.25em 0;
     width: 100%;
 }
 #title {
-    color: var(--accent-color);
+    color: var(--accent-01);
         opacity: 0.25;
     font-family: 'Genos', sans-serif;
     font-weight: 800;
@@ -17,8 +17,8 @@ header {
 
 /* Body Styling */
 body{
-    background: var(--darker);
-    color: var(--secondary-txt);
+    background: var(--background-02);
+    color: var(--txt-02);
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -31,6 +31,7 @@ body{
 .clock {
     height: auto;
     width: 100%;
+    color: var(--accent-02);
 }
 #time-zone-container {
     align-items: center;
@@ -46,14 +47,8 @@ body{
     padding: 0.1em 0.5em;
     white-space: nowrap;
 }
-
-/* Class Timer Styling */
-.class-timer {
-    background: var(--background);
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: 1em;
-    font-size: 2em;
-    width: 6em;
+.time-zone-identifier {
+    color: var(--accent-03-muted);
 }
+
+/* Timer Styling */
