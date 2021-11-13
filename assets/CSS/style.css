@@ -2,12 +2,17 @@
 header {
     background: var(--darkest);
     color: var(--accent-color);
-    display: flex;
     font-size: 2em;
-    justify-content: center;
     margin: auto;
-    padding: 1em 0 1em 0;
+    padding: 0.25em 0 0.25em 0;
     width: 100%;
+}
+#title {
+    font-family: 'Genos', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    opacity: 0.55;
+    text-align: center;
 }
 
 /* Body Styling */

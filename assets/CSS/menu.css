@@ -1,0 +1,79 @@
+/* Menu / Nav Styling */
+
+
+/* #menu-wrapper {
+
+} */
+
+#menu-icon {
+  position: absolute;
+    right: 1em;
+    top: 1em;
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  height: 1em;
+  width: 1em;
+
+}
+
+/* #menu-icon:hover {
+
+} */
+
+.menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.menu-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+a.menu-links {
+
+  color: #818181;
+  display: block;
+  font-size: 0.75em;
+  padding: 0.2em 0 0.2em 0.5em;
+  text-align: left;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.menu .closebtn {
+  color: var(--secondary-txt);
+  font-size: 1.5em;
+  position: absolute;
+    top: 0.3em;
+    right: 0.5em;
+  text-decoration: none;
+}
+
+a.menu-links:hover,
+a.menu-links:focus,
+.closebtn:hover,
+.closebtn:focus,
+.closebtn:active {
+  color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+  .menu a {font-size: 20px}
+  .menu .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
