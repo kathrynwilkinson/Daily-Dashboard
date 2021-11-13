@@ -1,24 +1,30 @@
 /* find root color palette and body styling in reset css file */
 
-#timer {
+#timer-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin: auto;
-}
-
-#timer form {
   margin-bottom: 20px;
-  display: flex;
 }
 
-#timer input {
-  display: inline-block;
-  padding-left: 0.1em;
-  width: 70px;
-  /* text-align: right; */
-  font-size: 3em;
+#timer-form {
+  /* margin-bottom: 20px;*/
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  position: relative;
+    right: 2.5em;
+  width: 2em;
+}
+
+#min,
+#sec {
+  padding: 0.1em 0.55em 0.1em 0.5em;
+  width: 2em;
+  text-align: right;
+  font-size: 3.75em;
   background: transparent;
   color: var(--accent-color);
   font-weight: bold;
@@ -26,13 +32,38 @@
   transition: background .8s ease;
 }
 
-#timer input:focus:not([disabled]),
-#timer input:hover:not([disabled]) {
+/* input#min {
+  display: flex;
+    flex-direction: row-reverse;
+} */
+
+#timer-container input:focus:not([disabled]),
+#timer-container input:hover:not([disabled]) {
   background: rgba(0, 0, 0, .2);
 }
 
-#timer form span {
-  font-size: 3em;
+#timer-colon {
+  display: flex;
+  font-size: 3.25em;
+  position: relative;
+    bottom: 0.075em;
+  width: 0.025em;
+}
+
+#min {
+  /* display: flex;
+    flex-direction: row-reverse !important; */
+  position: relative;
+    left: 0.71em;
+}
+
+#sec {
+  padding-right: 0;
+  padding-left: 0.2em;
+}
+
+#timer-colon {
+
 }
 
 #controls {
