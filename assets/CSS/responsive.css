@@ -1,44 +1,85 @@
-/* Timer Media Queries */
+/* */
+@media only screen and (max-width: 325px) {
+    #title {
+    font-size: 1.75em;
+  }
+  #menu-icon {
+  position: absolute;
+    right: 1em;
+    top: 1em;
+  }
+}
 
+@media only screen and (max-width: 375) {
 
+}
 
-  @media only screen and (min-width: 768px) {
-    #timer {
-      flex-direction: row;
-      padding: 40px;
-    }
+@media only screen and (min-width: 540px) {
+  header {
+    padding: 0.5em 0 0.5em 0;
+  }
+  #title {
+    font-size: 3em;
+  }
+  #menu-icon {
+    height: 1.25em;
+    width: 1.25em;
+    position: absolute;
+      right: 1.5em;
+      top: 1.75em;
+
+  }
+  #time-zone-container {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .time-zone-identifier,
+  .time {
+    font-size: 0.75em;
+    padding: 0.025em 0.5em;
+  }
+  #timer-container {
+    margin-top: 0.75em;
+    margin-bottom: 2.5em;
   }
 
-  @media only screen and (min-width: 768px) {
-    #timer form {
-      margin-right: 20px;
-      margin-bottom: 0;
-    }
-  }
+}
 
-  @media only screen and (min-width: 768px) {
-    #timer input {
-      font-size: 84px;
-      width: 120px;
-    }
-  }
+@media only screen and (min-width: 540px) and (max-width: 768px) {
 
-  @media only screen and (min-width: 768px) {
-    #timer form span {
-      font-size: 84px;
-    }
+  .modules {
+    height: 15em;
+    width: 15em;
+    margin: 0.5em;
   }
+}
 
-  @media only screen and (min-width: 768px) {
-    #controls {
-      flex-direction: row;
-      margin-left: 20px;
-      font-size: 20px;
-    }
-  }
+@media only screen and (min-width: 768px) {
 
-  @media only screen and (min-width: 768px) {
-    #controls button {
-      margin: 10px 0;
-    }
+  header {
+    padding: 0.5em 0 0.5em 0;
   }
+  #title {
+    font-size: 3.5em;
+  }
+  #menu-icon {
+    height: 1.5em;
+    width: 1.5em;
+    position: absolute;
+      right: 1.5em;
+      top: 2em;
+  }
+  #time-zone-container {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .time-zone-identifier,
+  .time {
+    font-size: 0.75em;
+    padding: 0.025em 0.5em;
+  }
+  #timer-container {
+    margin-top: 0.75em;
+    margin-bottom: 2.5em;
+  }
+}

@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
   position: relative;
-    right: 2.5em;
+    right: 3em;
   width: 2em;
 }
 
@@ -32,10 +32,9 @@
   transition: background .8s ease;
 }
 
-/* input#min {
-  display: flex;
-    flex-direction: row-reverse;
-} */
+input#min {
+  padding-right: 0.8em;
+}
 
 #timer-container input:focus:not([disabled]),
 #timer-container input:hover:not([disabled]) {

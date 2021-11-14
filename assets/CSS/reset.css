@@ -23,3 +23,10 @@
 	padding: 0;
     vertical-align: baseline;
 }
+html,
+header,
+body,
+footer {
+    width: 100%;
+    margin: 0;
+}

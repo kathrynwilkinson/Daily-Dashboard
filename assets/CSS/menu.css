@@ -8,13 +8,13 @@
 #menu-icon {
   position: absolute;
     right: 1em;
-    top: 1em;
+    top: 1.25em;
   display: flex;
     flex-direction: column;
     justify-content: flex-end;
   height: 1em;
   width: 1em;
-
+  opacity: 0.75;
 }
 
 /* #menu-icon:hover {
