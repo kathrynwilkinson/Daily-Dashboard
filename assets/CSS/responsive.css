@@ -90,11 +90,52 @@
 
 /* Laptop / NestHub */
 @media only screen and (min-width: 1024px) {
+  header {
+    padding: 0.75em 0 0.75em 0;
+  }
+  #title {
+    font-size: 4em;
+  }
+  #menu-icon {
+    height: 1.5em;
+    width: 1.5em;
+    position: absolute;
+      right: 3em;
+      top: 2.5em;
+  }
+  #time-zone-container {
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+  }
+  .time-zone-identifier,
+  .time {
+    font-size: 1em;
+    padding: 0.025em 0.5em;
+  }
+  #timer-container {
+    margin-top: 0.75em;
+    margin-bottom: 2.5em;
+  }
+  #timer-form {
+    position: relative;
+      right: 2.7em;
+  }
+  input#min {
+    padding-right: 0.6em;
+  }
+  #min {
+    position: relative;
+      left: 0.75em;
+  }
+  #sec {
+    padding-right: 0;
+    padding-left: 0.2em;
+  }
 
 }
 
 /* Laptop / NestHubMax */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
 
 }
 

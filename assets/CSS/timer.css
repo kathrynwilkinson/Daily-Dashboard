@@ -10,7 +10,7 @@
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 2em;
 }
 
 #timer-form {
@@ -42,7 +42,7 @@ input#min {
 
 #timer-container input:focus:not([disabled]),
 #timer-container input:hover:not([disabled]) {
-  background: var(--background-03);
+  /* background: var(--background-03); */
 }
 
 #timer-colon {
@@ -57,12 +57,12 @@ input#min {
   /* display: flex;
     flex-direction: row-reverse !important; */
   position: relative;
-    left: 0.71em;
+    left: 1em;
 }
 
 #sec {
   padding-right: 0;
-  padding-left: 0.2em;
+  padding-left: 0.1em;
 }
 
 #controls {
@@ -74,12 +74,12 @@ input#min {
 #controls button {
   -webkit-appearance: button;
   font-size: 0.75em;
-  color: var(--txt-03);
+  color: var(--txt-02);
   background: transparent;
   border: solid 2px var(--button-hover);
   width: 75px;
   height: 30px;
-  transition: background .4s ease, color .4s ease;
+  transition: background .3s ease, color .3s ease;
   border-radius: 2px;
   margin: auto;
 }
