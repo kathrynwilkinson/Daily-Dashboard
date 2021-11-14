@@ -40,8 +40,7 @@
     right: 1.5em;
   }
   #time-zone-container {
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin: 0.75em 1.5em;
   }
   .time-zone-identifier,
   .time {
@@ -88,8 +87,8 @@
     right: 1.5em;
 }
   #time-zone-container {
-    margin-top: 1em;
-    margin-bottom: 1em;
+    width: 80vw;
+    margin: auto;
   }
   .time-zone-identifier,
   .time {
@@ -129,6 +128,7 @@
   #time-zone-container {
     margin-top: 1.5em;
     margin-bottom: 2em;
+    width: 70vw;
   }
   .time-zone-identifier,
   .time {
@@ -162,6 +162,9 @@
 
 /* Laptop / NestHubMax */
 @media only screen and (min-width: 1280px) {
+  #time-zone-container {
+    width: 60vw;
+  }
   .modules {
     height: 22em;
   }
@@ -169,6 +172,9 @@
 
 /* Laptop large */
 @media only screen and (min-width: 1440px) {
+  #time-zone-container {
+    width: 55vw;
+  }
   .modules {
     height: 25em;
   }
@@ -176,5 +182,7 @@
 
 /* Destop large */
 @media only screen and (min-width: 2560px) {
-
+  #time-zone-container {
+    width: 45vw;
+  }
 }
