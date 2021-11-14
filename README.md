@@ -43,8 +43,8 @@ If you have something you'd like to contribute, make a pull request!
 
 ### Links
 
-[DeployedApp](<https://nahco-code.github.io/Generation-Daily-Dashboard/>) (GitHub Pages)
-[GitHub Repo](<https://github.com/NAHco-code/Generation-Daily-Dashboard.git>)
+[DeployedApp](<https://generation-resources.github.io/Daily-Dashboard/>) (GitHub Pages)
+[GitHub Repo](<https://github.com/Generation-Resources/Daily-Dashboard.git>)
 
 ### Installation
 
