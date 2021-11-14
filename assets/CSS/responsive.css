@@ -31,7 +31,7 @@
 
   @media only screen and (min-width: 768px) {
     #controls {
-      flex-direction: column;
+      flex-direction: row;
       margin-left: 20px;
       font-size: 20px;
     }
