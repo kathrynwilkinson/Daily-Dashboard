@@ -73,6 +73,7 @@ body{
 
 .modules {
     background: var(--background-01);
+    border-radius: 5px;
     display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -83,11 +84,14 @@ body{
     position: relative;
 }
 .mod-title {
-    margin: auto;
     padding: 0.25em;
     text-align: center;
     white-space: nowrap;
-    height: 12%;
+    height: 10%;
+    background-color: var(--button-01);
+    width: 14.5em;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 .mod-body {
     display: flex;
@@ -95,7 +99,8 @@ body{
     margin: auto;
     max-width: max-content;
 }
-#classList {
-    display: flex;
 
+#playlist {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }

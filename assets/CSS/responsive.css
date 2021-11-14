@@ -154,18 +154,24 @@
     padding-right: 0;
     padding-left: 0.2em;
   }
-
+  .modules {
+    height: 20em;
+  }
 
 }
 
 /* Laptop / NestHubMax */
 @media only screen and (min-width: 1280px) {
-
+  .modules {
+    height: 22em;
+  }
 }
 
 /* Laptop large */
 @media only screen and (min-width: 1440px) {
-
+  .modules {
+    height: 25em;
+  }
 }
 
 /* Destop large */

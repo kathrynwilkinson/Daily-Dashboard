@@ -71,39 +71,53 @@
         </div>
     </div>
 
-    <!-- <iframe src='https://open.spotify.com/embed/playlist/2fzPI90D1Sd6SkQvqNaMvj?utm_source=generator' width='50%'
-        height='380' frameBorder='0' allowfullscreen=''
-        allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe> -->
     <div id="modules-container">
-        <div class='modules' id='name-picker-mod'>
-            <div class='mod-title'>Called Out</div>
-            <div class='mod-body' id='name-picker'>
-                <button name='submit' class='name-btns' id='nameBtn'>Random Name</button>
-                <ul id='classList'>Get Ready!</ul>
-                <button name='clearing' class='name-btns' id='clearBtn'>Clear</button>
-            </div>
-
+        <!-- Music Module -->
+        <div class='modules' id='playlist-mod'>
+            <div class='mod-title'>Jammin'</div>
+            <iframe id='playlist' src='https://open.spotify.com/embed/playlist/2fzPI90D1Sd6SkQvqNaMvj?utm_source=generator' width='100%'
+                height='380' allowfullscreen=''
+                allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'>
+            </iframe>
         </div>
+
+        <!-- Todays Alogorithm Module -->
+        <div class='modules' id='tbd-mod'>
+            <div class='mod-title'>Daily Alogorithm</div>
+            <div class='mod-body' id=''>
+                Body
+            </div>
+        </div>
+
+        <!-- Todays Agenda Module -->
         <div class='modules' id='agenda-today-mod'>
             <div class='mod-title'>Today</div>
             <div class='mod-body' id='agenda-today'>
                 Body
             </div>
         </div>
+
+        <!-- Tomorrow's Agenda Module -->
         <div class='modules' id='agenda-tomorrow-mod'>
             <div class='mod-title'>Tomorrow</div>
             <div class='mod-body' id='agenda-tomorrow'>
                 Body
             </div>
         </div>
-        <div class='modules' id='tbd-mod'>
-            <div class='mod-title'>TBD</div>
-            <div class='mod-body' id=''>
-                Body
+
+        <!-- Random name generator Module -->
+        <div class='modules' id='name-picker-mod'>
+            <div class='mod-title'>Who's it Gonna Be?</div>
+            <div class='mod-body' id='name-picker'>
+                <ul id='classList'>Get Ready!</ul>
+                <div>
+                    <button name='submit' class='name-btns' id='nameBtn'>Random Name</button>
+                    <button name='clearing' class='name-btns' id='clearBtn'>Clear</button>
+                </div>
             </div>
         </div>
+
     </div>
-    <!-- Random name generator stuff -->
 
 
     <footer>
@@ -125,6 +139,7 @@
             </div>
         </div>
     </footer>
+
     <!-- <div>Icons made by <a href='https://www.flaticon.com/authors/gofox' title='GOFOX'>GOFOX</a> from <a
                 href='https://www.flaticon.com/' title='Flaticon'>www.flaticon.com</a></div> -->
 

@@ -79,8 +79,8 @@ input#min {
   border: solid 2px var(--button-hover);
   width: 75px;
   height: 30px;
-  transition: background .3s ease, color .3s ease;
-  border-radius: 2px;
+  transition: .3s ease;
+  border-radius: 5px;
   margin: auto;
 }
 
@@ -96,5 +96,5 @@ input#min {
   font-size: 0.85em;
   font-weight: 500;
   margin: auto;
-  transition: .4s ease;
+  transition: .25s ease;
 }
