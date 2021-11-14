@@ -1,3 +1,8 @@
+
+/* Styled for iPhone @ 375px */
+/* Find styling for different screen sizes in responsive css file */
+/* Find root color palette and global styling in reset css file */
+
 #name-picker {
     display: flex;
         flex-direction: column;
@@ -17,21 +22,14 @@
 
 .name-btns {
     display: flex;
+    width: auto;
 }
 
-  #nameBtn {
-      width: auto;
-  }
-
-  #clearBtn {
-      width: auto;
-  }
-
-  #name-picker button:hover {
+#name-picker button:hover {
     cursor: pointer;
     background: var(--button-hover);
     color: black;
-  }
+}
 
 #classList {
     list-style-type: none;

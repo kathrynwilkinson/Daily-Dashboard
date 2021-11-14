@@ -1,3 +1,9 @@
+
+/* Styled for iPhone @ 375px */
+/* Find styling for different screen sizes in responsive css file */
+/* Find root color palette and global styling in reset css file */
+
+
 /* Header Styling */
 header {
     background: var(--background-03);
@@ -60,6 +66,9 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+#modules-container:last-child {
+    margin-bottom: 2em;
 }
 
 .modules {

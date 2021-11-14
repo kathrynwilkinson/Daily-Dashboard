@@ -1,4 +1,8 @@
-/* find root color palette and body styling in reset css file */
+
+/* Styled for iPhone @ 375px */
+/* Find styling for different screen sizes in responsive css file */
+/* Find root color palette and global styling in reset css file */
+
 
 #timer-container {
   display: flex;
@@ -59,10 +63,6 @@ input#min {
 #sec {
   padding-right: 0;
   padding-left: 0.2em;
-}
-
-#timer-colon {
-
 }
 
 #controls {

@@ -1,4 +1,6 @@
+
 /* Global Styling */
+
 :root{
     --accent-01: #00D0FE;
     --accent-02: #7A8AFB;
@@ -6,7 +8,8 @@
     --accent-03-muted: #A65446;
     --txt-01: #EDEDED;
     --txt-02: #B3B3B3;
-    --txt-03: #575757;
+    --txt-03: #818181;
+    --txt-04: #575757;
     --background-01:#333335;
     --background-02: #181818;
     --background-03: #121212;
@@ -29,4 +32,5 @@ body,
 footer {
     width: 100%;
     margin: 0;
+    padding: 0;
 }

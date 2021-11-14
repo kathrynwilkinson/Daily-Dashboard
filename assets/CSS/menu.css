@@ -1,10 +1,10 @@
+
+/* Styled for iPhone @ 375px */
+/* Find styling for different screen sizes in responsive css file */
+/* Find root color palette and global styling in reset css file */
+
+
 /* Menu / Nav Styling */
-
-
-/* #menu-wrapper {
-
-} */
-
 #menu-icon {
   position: absolute;
     right: 1em;
@@ -43,7 +43,7 @@
 
 a.menu-links {
 
-  color: #818181;
+  color: var(--txt-03);
   display: block;
   font-size: 0.75em;
   padding: 0.2em 0 0.2em 0.5em;
@@ -53,7 +53,7 @@ a.menu-links {
 }
 
 .menu .closebtn {
-  color: var(--secondary-txt);
+  color: var(--txt-02);
   font-size: 1.5em;
   position: absolute;
     top: 0.3em;
@@ -66,7 +66,7 @@ a.menu-links:focus,
 .closebtn:hover,
 .closebtn:focus,
 .closebtn:active {
-  color: #f1f1f1;
+  color: var(--txt-01);
 }
 
 @media screen and (max-height: 450px) {

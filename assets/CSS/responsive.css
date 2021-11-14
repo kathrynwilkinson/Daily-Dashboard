@@ -1,4 +1,4 @@
-/* */
+/* Galaxy Fold */
 @media only screen and (max-width: 325px) {
     #title {
     font-size: 1.75em;
@@ -10,10 +10,12 @@
   }
 }
 
+/* iPhone */
 @media only screen and (max-width: 375) {
 
 }
 
+/* Surface Duo / Tablet */
 @media only screen and (min-width: 540px) {
   header {
     padding: 0.5em 0 0.5em 0;
@@ -45,6 +47,7 @@
 
 }
 
+/* Surface Due / iPad / Tablet ONLY */
 @media only screen and (min-width: 540px) and (max-width: 768px) {
 
   .modules {
@@ -54,6 +57,7 @@
   }
 }
 
+/* iPad / Tablet */
 @media only screen and (min-width: 768px) {
 
   header {
@@ -82,4 +86,24 @@
     margin-top: 0.75em;
     margin-bottom: 2.5em;
   }
+}
+
+/* Laptop / NestHub */
+@media only screen and (min-width: 1024px) {
+
+}
+
+/* Laptop / NestHubMax */
+@media only screen and (min-width: 1024px) {
+
+}
+
+/* Laptop large */
+@media only screen and (min-width: 1440px) {
+
+}
+
+/* Destop large */
+@media only screen and (min-width: 2560px) {
+
 }

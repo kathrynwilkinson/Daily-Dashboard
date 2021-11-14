@@ -1,15 +1,22 @@
+
+/* Styled for iPhone @ 375px */
+/* Find styling for different screen sizes in responsive css file */
+/* Find root color palette and global styling in reset css file */
+
+
 /* Footer Styling */
 footer {
+    background-color: rgba(0, 0, 0, 0.25);
     display: flex;
         align-content: flex-end;
         flex-direction: row;
         justify-content: space-between;
-    font-size: 8px;
-    margin-top: 110px;
-    padding-top: 40px;
-    padding-bottom: 25px;
-    /* position: absolute;
-        bottom: 0; */
+    font-size: 0.25em;
+    margin-top: 2em;
+    padding-top: 2.5em;
+    padding-bottom: 3em;
+    position: absolute;
+        bottom: 0;
     width: 100%;
 }
 .footer-container {
@@ -20,7 +27,7 @@ footer {
 }
 .footer-text,
 a.footer-text {
-    color: var(--txt-03);
+    color: var(--txt-04);
     display: flex;
     padding: 7px;
     text-decoration: none;
