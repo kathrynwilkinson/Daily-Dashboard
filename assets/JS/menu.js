@@ -8,7 +8,7 @@ menu.addEventListener('click', openNav);
 
 
 function openNav() {
-    document.getElementById("popOutMenu").style.width = "33%";
+    document.getElementById("popOutMenu").style.width = "25%";
 }
 
 function closeNav() {

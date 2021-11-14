@@ -12,7 +12,7 @@
 
 /* iPhone */
 @media only screen and (max-width: 375) {
-
+  /* Styled in main css files */
 }
 
 /* Surface Duo / Tablet */
@@ -29,7 +29,15 @@
     position: absolute;
       right: 1.5em;
       top: 1.75em;
-
+  }
+    a.menu-links {
+    font-size: 1em;
+    padding: 0.5em 0 0.5em 1em;
+  }
+  .menu .closebtn {
+    position: absolute;
+    top: 1em;
+    right: 1.5em;
   }
   #time-zone-container {
     margin-top: 1em;
@@ -60,9 +68,6 @@
 /* iPad / Tablet */
 @media only screen and (min-width: 768px) {
 
-  header {
-    padding: 0.5em 0 0.5em 0;
-  }
   #title {
     font-size: 3.5em;
   }
@@ -73,6 +78,15 @@
       right: 1.5em;
       top: 2em;
   }
+    a.menu-links {
+    font-size: 1.25em;
+  }
+  .menu .closebtn {
+    font-size: 2em;
+    position: absolute;
+    top: 1em;
+    right: 1.5em;
+}
   #time-zone-container {
     margin-top: 1em;
     margin-bottom: 1em;
@@ -103,6 +117,15 @@
       right: 3em;
       top: 2.5em;
   }
+  a.menu-links {
+    font-size: 1.5em;
+  }
+  .menu .closebtn {
+  font-size: 2em;
+  position: absolute;
+    top: 1em;
+    right: 1.5em;
+}
   #time-zone-container {
     margin-top: 1.5em;
     margin-bottom: 2em;
@@ -131,6 +154,7 @@
     padding-right: 0;
     padding-left: 0.2em;
   }
+
 
 }
 
