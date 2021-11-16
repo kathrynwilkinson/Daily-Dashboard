@@ -1,103 +1,100 @@
-/* reset css page is linked - no need to have a goobal selector */
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+
+/* Styled for iPhone @ 375px */
+/* Find styling for different screen sizes in responsive css file */
+/* Find root color palette and global styling in reset css file */
+
+
+#timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+#timer-form {
+  /* margin-bottom: 20px;*/
+  display: flex;
+    justify-content: center;
     align-items: center;
-  }
+  position: relative;
+    right: 3em;
+  width: 2em;
+}
 
+#min,
+#sec {
+  padding: 0.1em 0.55em 0.1em 0.5em;
+  width: 2em;
+  text-align: right;
+  font-size: 3.75em;
+  background: transparent;
+  color: var(--accent-01);
+  font-weight: bold;
+  border: none;
+  transition: background .8s ease;
+}
 
+input#min {
+  padding-right: 0.8em;
+}
 
+#timer-container input:focus:not([disabled]),
+#timer-container input:hover:not([disabled]) {
+  /* background: var(--background-03); */
+}
 
-  #clock {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+#timer-colon {
+  display: flex;
+  font-size: 3.25em;
+  position: relative;
+    bottom: 0.075em;
+  width: 0.025em;
+}
+
+#min {
+  /* display: flex;
+    flex-direction: row-reverse !important; */
+  position: relative;
+    left: 1em;
+}
+
+#sec {
+  padding-right: 0;
+  padding-left: 0.1em;
+}
+
+#controls {
+  display: flex;
+    justify-content: space-evenly;
+  width: 10em;
+}
+
+#controls button {
+  -webkit-appearance: button;
+  font-size: 0.75em;
+  color: var(--txt-02);
+  background: transparent;
+  border: solid 2px var(--button-hover);
+  width: 75px;
+  height: 30px;
+  transition: .3s ease;
+  border-radius: 5px;
+  margin: auto;
+}
+
+#controls button:hover,
+#controls button:focus {
+  cursor: pointer;
+  background: var(--button-hover);
+  border: solid 2px var(--button-01);
+  color: var(--accent-01);
+  display: flex;
     align-items: center;
-    /* background: rgba(1, 7, 39, 0.4); */
-    margin: auto;
-  }
-  @media only screen and (min-width: 768px) {
-    #clock {
-      flex-direction: row;
-      padding: 40px;
-    }
-  }
-
-  #clock form {
-    margin-bottom: 20px;
-    display: flex;
-  }
-  @media only screen and (min-width: 768px) {
-    #clock form {
-      margin-right: 20px;
-      margin-bottom: 0;
-    }
-  }
-
-  #clock input {
-    display: inline-block;
-    padding-left: 10px;
-    width: 70px;
-    text-align: right;
-    font-size: 42px;
-    background: transparent;
-    color: var(--accent-color);
-    font-weight: bold;
-    border: none;
-    transition: background .8s ease;
-  }
-  @media only screen and (min-width: 768px) {
-    #clock input {
-      font-size: 84px;
-      width: 120px;
-    }
-  }
-  #clock input:focus:not([disabled]),
-  #clock input:hover:not([disabled]) {
-    background: rgba(0, 0, 0, .2);
-  }
-  #clock form span {
-    font-size: 42px;
-  }
-  @media only screen and (min-width: 768px) {
-    #clock form span {
-      font-size: 84px;
-    }
-  }
-
-  #controls {
-    display: flex;
-  }
-  @media only screen and (min-width: 768px) {
-    #controls {
-      flex-direction: column;
-      margin-left: 20px;
-      font-size: 20px;
-    }
-  }
-
-  #controls button {
-    -webkit-appearance: button;
-    font-size: inherit;
-    color: var(--accent-color);
-    background: transparent;
-    border: solid 2px var(--accent-color);
-    padding: 10px;
-    width: 100px;
-    transition: background .4s ease, color .4s ease;
-    border-radius: 2px;
-    margin: 0 5px;
-  }
-  @media only screen and (min-width: 768px) {
-    #controls button {
-      margin: 10px 0;
-    }
-  }
-  #controls button:hover,
-  #controls button:focus {
-    cursor: pointer;
-    background: white;
-    color: black;
-  }
-
+    justify-content: center;
+  font-size: 0.85em;
+  font-weight: 500;
+  margin: auto;
+  transition: .25s ease;
+}

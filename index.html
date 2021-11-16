@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./assets/CSS/reset.css">
-    <link rel="stylesheet" href="./assets/CSS/style.css">
-    <link rel="stylesheet" href="./assets/CSS/nav.css">
-    <link rel="stylesheet" href="./assets/CSS/footer.css">
-    <link rel="stylesheet" href="./assets/CSS/timer.css">
-    <link rel="stylesheet" href="./assets/CSS/nameGenerator.css">
+    <link rel='stylesheet' href='./assets/CSS/reset.css'>
+    <link rel='stylesheet' href='./assets/CSS/style.css'>
+    <link rel='stylesheet' href='./assets/CSS/menu.css'>
+    <link rel='stylesheet' href='./assets/CSS/footer.css'>
+    <link rel='stylesheet' href='./assets/CSS/timer.css'>
+    <link rel='stylesheet' href='./assets/CSS/nameGenerator.css'>
+    <link rel='stylesheet' href='./assets/CSS/responsive.css'>
     <title>Generation Daily Dashboard</title>
 </head>
 <header>
@@ -30,6 +33,21 @@
                 <a href="#">Link2</a>
                 <a href="#">Link3</a>
                 <a href="#">Link4</a>
+
+    <h1 id='title'>DASHBOARD</h1>
+    <div id='menu-wrapper'>
+        <a href='#'><img id=menu-icon src='assets/images/menu-2.PNG' /></a>
+        <div id='popOutMenu' class='menu'>
+            <a href='#' id='closeBtn' class='closebtn'>&times;</a>
+            <div class='menu-content'>
+                <a class='menu-links' href='#'>Class List</a>
+                <a class='menu-links' href='#'>Algorithms</a>
+                <a class='menu-links' href='#'>Class Agenda</a>
+                <a class='menu-links' href='#'>Class Links</a>
+                <a class='menu-links' href='#'>Class Info</a>
+                <!-- Thinking for algorithms and agendas we should be able to enter on some sort of calendar and modules will populate based on current day? KW-->
+                <!-- I havent had the time to deep dive on this but it looks like we could use this Calendar API and make calls to it and populate our activites based on the day!! 
+                https://www.nylas.com/products/calendar-api/?gclid=CjwKCAiAp8iMBhAqEiwAJb94z6OOLFthc3SZYv7fn3YS-IrAGkOnrXBS54mjhU5jw7JjM09R0Yy54BoC3yAQAvD_BwE -MO -->
             </div>
         </div>
     </div>
@@ -37,79 +55,115 @@
 </header>
 
 <body>
-    <div class="clock">
-        <div id="time-zone-container">
-            <div id="pst">
-                <div class="time-zone-identifier" id="pst-display">pacific</div>
-                <h2 class="time" id="pacificTime"></h2>
+    <div class='clock'>
+        <div id='time-zone-container'>
+            <div id='pst'>
+                <div class='time-zone-identifier' id='pst-display'></div>
+                <h2 class='time' id='pacificTime'></h2>
             </div>
-            <div id="mst">
-                <div class="time-zone-identifier" id="mst-display">mountain</div>
-                <h2 class="time" id="mountainTime"></h2>
+            <div id='mst'>
+                <div class='time-zone-identifier' id='mst-display'></div>
+                <h2 class='time' id='mountainTime'></h2>
             </div>
-            <div id="cst">
-                <div class="time-zone-identifier" id="cst-display">central</div>
-                <h2 class="time" id="centralTime"></h2>
+            <div id='cst'>
+                <div class='time-zone-identifier' id='cst-display'></div>
+                <h2 class='time' id='centralTime'></h2>
             </div>
-            <div id="est">
-                <div class="time-zone-identifier" id="est-display">eastern</div>
-                <h2 class="time" id="easternTime"></h2>
+            <div id='est'>
+                <div class='time-zone-identifier' id='est-display'></div>
+                <h2 class='time' id='easternTime'></h2>
             </div>
         </div>
     </div>
-    <div id="clock">
-        <form>
-            <input id="min" type="number" step="1" min="0" max="59" value="25"></input>
-            <span>:</span>
-            <input id="sec" type="number" step="1" min="0" max="59" value="00"></input>
+    <div id='timer-container'>
+        <form id='timer-form'>
+            <input id='min' type='number' step='1' min='0' max='59' value='25'></input>
+            <span id='timer-colon'>:</span>
+            <input id='sec' type='number' step='1' min='0' max='59' value='00'></input>
         </form>
-        <div id="controls">
-            <button id="start">START</button>
-            <button id="reset">RESET</button>
+        <div id='controls'>
+            <button id='start'>START</button>
+            <button id='reset'>RESET</button>
         </div>
     </div>
-    <!-- <div class="class-timer">00:00:00</div> -->
-    <!-- <iframe src="https://open.spotify.com/embed/playlist/2fzPI90D1Sd6SkQvqNaMvj?utm_source=generator" width="50%"
-        height="380" frameBorder="0" allowfullscreen=""
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> -->
 
-    <!-- Random name generator stuff -->
-    <div>
-        <ul id="nameList">
-
-        </ul>
-        <div id="randomNameButtons">
-            <button name="submit" id="randomNamesButton">Generate random name!</button>
-            <button name="clearing" id="clearButton">Clear</button>
+    <div id="modules-container">
+        <!-- Music Module -->
+        <div class='modules' id='playlist-mod'>
+            <div class='mod-title'>Jams</div>
+            <iframe id='playlist'
+                src='https://open.spotify.com/embed/playlist/2fzPI90D1Sd6SkQvqNaMvj?utm_source=generator' width='100%'
+                height='380' allowfullscreen=''
+                allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'>
+            </iframe>
         </div>
+
+        <!-- Todays Alogorithm Module -->
+        <div class='modules' id='tbd-mod'>
+            <div class='mod-title'>Daily Algorithm</div>
+            <div class='mod-body' id=''>
+                Body
+            </div>
+        </div>
+
+        <!-- Todays Agenda Module -->
+        <div class='modules' id='agenda-today-mod'>
+            <div class='mod-title'>Today</div>
+            <div class='mod-body' id='agenda-today'>
+                Body
+            </div>
+        </div>
+
+        <!-- Tomorrow's Agenda Module -->
+        <div class='modules' id='agenda-tomorrow-mod'>
+            <div class='mod-title'>Tomorrow</div>
+            <div class='mod-body' id='agenda-tomorrow'>
+                Body
+            </div>
+        </div>
+
+        <!-- Random name generator Module -->
+        <div class='modules' id='name-picker-mod'>
+            <div class='mod-title'>Who's it Gonna Be?</div>
+            <div class='mod-body' id='name-picker'>
+                <ul id='classList'>Get Ready!</ul>
+                <div>
+                    <button name='submit' class='name-btns' id='nameBtn'>Random Name</button>
+                    <button name='clearing' class='name-btns' id='clearBtn'>Clear</button>
+                </div>
+            </div>
+        </div>
+
     </div>
+
 
     <footer>
-        <div class="footer-container">
-            <div class="copyright footer-text">
+        <div class='footer-container'>
+            <div class='copyright footer-text'>
                 &copy; KAMP 2021
             </div>
-            <div class="term-of-use">
-                <a href='#' class="footer-text">TERMS OF USE</a>
+            <div class='term-of-use'>
+                <a href='#' class='footer-text'>TERMS OF USE</a>
             </div>
-            <div class="privacy-policy">
-                <a href='#' class="footer-text">PRIVACY POLICY</a>
+            <div class='privacy-policy'>
+                <a href='#' class='footer-text'>PRIVACY POLICY</a>
             </div>
-            <div class="about">
-                <a href='#' class="footer-text">ABOUT</a>
+            <div class='about'>
+                <a href='#' class='footer-text'>ABOUT</a>
             </div>
-            <div class="contact">
-                <a href='#' class="footer-text">CONTACT</a>
+            <div class='contact'>
+                <a href='#' class='footer-text'>CONTACT</a>
             </div>
         </div>
     </footer>
-    <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/gofox" title="GOFOX">GOFOX</a> from <a
-                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
 
-    <script src="./assets/JS/clock.js"></script>
-    <script src="./assets/JS/timer.js"></script>
-    <script src="./assets/JS/nameGenerator.js"></script>
-    <script src="./assets/JS/navMenu.js"></script>
+    <!-- <div>Icons made by <a href='https://www.flaticon.com/authors/gofox' title='GOFOX'>GOFOX</a> from <a
+                href='https://www.flaticon.com/' title='Flaticon'>www.flaticon.com</a></div> -->
+
+    <script src='./assets/JS/clock.js'></script>
+    <script src='./assets/JS/timer.js'></script>
+    <script src='./assets/JS/nameGenerator.js'></script>
+    <script src='./assets/JS/menu.js'></script>
 </body>
 
 </html>

@@ -1,0 +1,188 @@
+/* Galaxy Fold */
+@media only screen and (max-width: 325px) {
+    #title {
+    font-size: 1.75em;
+  }
+  #menu-icon {
+  position: absolute;
+    right: 1em;
+    top: 1em;
+  }
+}
+
+/* iPhone */
+@media only screen and (max-width: 375) {
+  /* Styled in main css files */
+}
+
+/* Surface Duo / Tablet */
+@media only screen and (min-width: 540px) {
+  header {
+    padding: 0.5em 0 0.5em 0;
+  }
+  #title {
+    font-size: 3em;
+  }
+  #menu-icon {
+    height: 1.25em;
+    width: 1.25em;
+    position: absolute;
+      right: 1.5em;
+      top: 1.75em;
+  }
+    a.menu-links {
+    font-size: 1em;
+    padding: 0.5em 0 0.5em 1em;
+  }
+  .menu .closebtn {
+    position: absolute;
+    top: 1em;
+    right: 1.5em;
+  }
+  #time-zone-container {
+    margin: 0.75em 1.5em;
+  }
+  .time-zone-identifier,
+  .time {
+    font-size: 0.75em;
+    padding: 0.025em 0.5em;
+  }
+  #timer-container {
+    margin-top: 0.75em;
+    margin-bottom: 2.5em;
+  }
+
+}
+
+/* Surface Due / iPad / Tablet ONLY */
+@media only screen and (min-width: 540px) and (max-width: 768px) {
+
+  .modules {
+    height: 15em;
+    width: 15em;
+    margin: 0.5em;
+  }
+}
+
+/* iPad / Tablet */
+@media only screen and (min-width: 768px) {
+
+  #title {
+    font-size: 3.5em;
+  }
+  #menu-icon {
+    height: 1.5em;
+    width: 1.5em;
+    position: absolute;
+      right: 1.5em;
+      top: 2em;
+  }
+    a.menu-links {
+    font-size: 1.25em;
+  }
+  .menu .closebtn {
+    font-size: 2em;
+    position: absolute;
+    top: 1em;
+    right: 1.5em;
+}
+  #time-zone-container {
+    width: 80vw;
+    margin: auto;
+  }
+  .time-zone-identifier,
+  .time {
+    font-size: 0.75em;
+    padding: 0.025em 0.5em;
+  }
+  #timer-container {
+    margin-top: 0.75em;
+    margin-bottom: 2.5em;
+  }
+}
+
+/* Laptop / NestHub */
+@media only screen and (min-width: 1024px) {
+  header {
+    padding: 0.75em 0 0.75em 0;
+  }
+  #title {
+    font-size: 4em;
+  }
+  #menu-icon {
+    height: 1.5em;
+    width: 1.5em;
+    position: absolute;
+      right: 3em;
+      top: 2.5em;
+  }
+  a.menu-links {
+    font-size: 1.5em;
+  }
+  .menu .closebtn {
+  font-size: 2em;
+  position: absolute;
+    top: 1em;
+    right: 1.5em;
+}
+  #time-zone-container {
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    width: 70vw;
+  }
+  .time-zone-identifier,
+  .time {
+    font-size: 1em;
+    padding: 0.025em 0.5em;
+  }
+  #timer-container {
+    margin-top: 0.75em;
+    margin-bottom: 2.5em;
+  }
+  #timer-form {
+    position: relative;
+      right: 2.7em;
+  }
+  input#min {
+    padding-right: 0.6em;
+  }
+  #min {
+    position: relative;
+      left: 0.75em;
+  }
+  #sec {
+    padding-right: 0;
+    padding-left: 0.2em;
+  }
+  .modules {
+    height: 20em;
+  }
+
+}
+
+/* Laptop / NestHubMax */
+@media only screen and (min-width: 1280px) {
+  #time-zone-container {
+    width: 60vw;
+  }
+  .modules {
+    height: 22em;
+  }
+}
+
+/* Laptop large */
+@media only screen and (min-width: 1440px) {
+  #time-zone-container {
+    width: 55vw;
+  }
+  .modules {
+    height: 25em;
+  }
+}
+
+/* Destop large */
+@media only screen and (min-width: 2560px) {
+  #time-zone-container {
+    width: 45vw;
+  }
+}

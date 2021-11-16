@@ -1,42 +1,57 @@
-#randomNameButtons {
+
+/* Styled for iPhone @ 375px */
+/* Find styling for different screen sizes in responsive css file */
+/* Find root color palette and global styling in reset css file */
+
+#name-picker {
     display: flex;
+        flex-direction: column;
 }
 
-#randomNameButtons button {
+#name-picker button {
     -webkit-appearance: button;
-    font-size: inherit;
-    color: var(--accent-color);
-    background: transparent;
-    border: solid 2px var(--accent-color);
-    padding: 10px;
+    font-size: 1em;
+    color: var(--txt-02);
+    background: var(--screen);
+    border: solid 2px var(--txt-04);
+    padding: 0.25em 0.5em;
     transition: background .4s ease, color .4s ease;
-    border-radius: 2px;
-    margin: 0 5px;
-  }
-
-  #randomNamesButton {
-      width: 200px;
-  }
-
-  #clearButton {
-      width: 100px;
-  }
-
-  #randomNameButtons button:hover {
-    cursor: pointer;
-    background: white;
-    color: black;
-  }
-
-#nameList {
-    list-style-type: none;
-    color: black;
-    margin: 10px;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 0.25em;
 }
 
-#nameListItem {
-    height: 30px;
-    width: 300px;
-    background-color: white;
+#name-picker button#nameBtn {
+    position: absolute;
+        bottom: 0.25em;
+        left: 1em;
+}
+#name-picker button#clearBtn {
+    position: absolute;
+        bottom: 0.25em;
+        right: 1em;
+}
+.name-btns {
+    display: flex;
+    width: auto;
+}
+
+#name-picker button:hover {
+    cursor: pointer;
+    background: var(--button-hover);
+    color: var(--accent-01);
+}
+
+#classList {
+    color: var(--accent-03);
+    font-size: 2em;
+    list-style-type: none;
+    margin: 2em 0 2em 0;
+
+}
+
+#randomName {
+    color: var(--accent-03);
+    font-size: 1.25em;
     text-align: center;
 }
