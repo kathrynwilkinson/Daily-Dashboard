@@ -1,102 +1,100 @@
-
 /* Styled for iPhone @ 375px */
 /* Find styling for different screen sizes in responsive css file */
 /* Find root color palette and global styling in reset css file */
 
-
 #timer-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-  margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 2em;
 }
 
 #timer-form {
-  /* margin-bottom: 20px;*/
-  display: flex;
+    /* margin-bottom: 20px;*/
+    display: flex;
     justify-content: center;
     align-items: center;
-  position: relative;
+    position: relative;
     right: 3em;
-  width: 2em;
+    width: 2em;
 }
 
 #min,
 #sec {
-  padding: 0.1em 0.55em 0.1em 0.5em;
-  width: 2em;
-  text-align: right;
-  font-size: 3.75em;
-  background: transparent;
-  color: var(--accent-01);
-  font-weight: bold;
-  border: none;
-  transition: background .8s ease;
+    padding: 0.1em 0.55em 0.1em 0.5em;
+    width: 2em;
+    text-align: right;
+    font-size: 3.75em;
+    background: transparent;
+    color: var(--accent-01);
+    font-weight: bold;
+    border: none;
+    transition: background 0.8s ease;
 }
 
 input#min {
-  padding-right: 0.8em;
+    padding-right: 0.8em;
 }
 
 #timer-container input:focus:not([disabled]),
 #timer-container input:hover:not([disabled]) {
-  /* background: var(--background-03); */
+    /* background: var(--background-03); */
 }
 
 #timer-colon {
-  display: flex;
-  font-size: 3.25em;
-  position: relative;
-  left: -0.6rem;
-  bottom: 0.075em;
-  width: 0.025em;
-  margin: 0 0.6rem;
+    display: flex;
+    font-size: 3.25em;
+    position: relative;
+    left: -0.6rem;
+    bottom: 0.075em;
+    width: 0.025em;
+    margin: 0 0.6rem;
 }
 
 #min {
-  /* display: flex;
+    /* display: flex;
     flex-direction: row-reverse !important; */
-  position: relative;
+    position: relative;
     left: 1em;
 }
 
 #sec {
-  padding-right: 0;
-  padding-left: 0.1em;
+    padding-right: 0;
+    padding-left: 0.1em;
 }
 
 #controls {
-  display: flex;
+    display: flex;
     justify-content: space-evenly;
-  width: 10em;
+    width: 10em;
 }
 
 #controls button {
-  -webkit-appearance: button;
-  font-size: 0.75em;
-  color: var(--txt-02);
-  background: transparent;
-  border: solid 2px var(--button-hover);
-  width: 75px;
-  height: 30px;
-  transition: .3s ease;
-  border-radius: 5px;
-  margin: auto;
+    -webkit-appearance: button;
+    font-size: 0.75em;
+    color: var(--txt-02);
+    background: transparent;
+    border: solid 2px var(--button-hover);
+    width: 75px;
+    height: 30px;
+    transition: 0.3s ease;
+    border-radius: 5px;
+    margin: auto;
 }
 
 #controls button:hover,
 #controls button:focus {
-  cursor: pointer;
-  background: var(--button-hover);
-  border: solid 2px var(--button-01);
-  color: var(--accent-01);
-  display: flex;
+    cursor: pointer;
+    background: var(--button-hover);
+    border: solid 2px var(--button-01);
+    color: var(--accent-01);
+    display: flex;
     align-items: center;
     justify-content: center;
-  font-size: 0.85em;
-  font-weight: 500;
-  margin: auto;
-  transition: .25s ease;
+    font-size: 0.85em;
+    font-weight: 500;
+    margin: auto;
+    transition: 0.25s ease;
 }

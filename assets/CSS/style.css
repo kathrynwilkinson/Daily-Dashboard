@@ -1,8 +1,6 @@
-
 /* Styled for iPhone @ 375px */
 /* Find styling for different screen sizes in responsive css file */
 /* Find root color palette and global styling in reset css file */
-
 
 /* Header Styling */
 header {
@@ -15,7 +13,7 @@ header {
 }
 #title {
     color: var(--accent-01);
-        opacity: 0.25;
+    opacity: 0.25;
     font-family: 'Genos', sans-serif;
     font-weight: 800;
     font-size: 2.5em;
@@ -24,7 +22,7 @@ header {
 }
 
 /* Body Styling */
-body{
+body {
     background: var(--background-02);
     color: var(--txt-02);
     display: flex;
@@ -39,7 +37,7 @@ body{
 #modules-container,
 footer {
     display: flex;
-        align-items: stretch;
+    align-items: stretch;
 }
 .clock,
 #timer-container,
@@ -86,9 +84,9 @@ footer {
     background: var(--background-01);
     border-radius: 5px;
     display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: space-between;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: space-between;
     height: 18em;
     width: 15em;
     margin: 0.5em;
@@ -116,12 +114,14 @@ footer {
     border-bottom-right-radius: 5px;
 }
 /* styles for the drop rich text div */
-#agenda-today, #agenda-tomorrow {
+#agenda-today,
+#agenda-tomorrow {
     margin: 0.25rem;
     max-width: inherit;
 }
 
-#agenda-today > * , #agenda-tomorrow > * {
+#agenda-today > *,
+#agenda-tomorrow > * {
     width: 100%;
 }
 
@@ -139,6 +139,7 @@ footer {
     display: none !important;
 }
 
-div[role=presentation], .ck-content {
-    height:100%;
+div[role='presentation'],
+.ck-content {
+    height: 100%;
 }
