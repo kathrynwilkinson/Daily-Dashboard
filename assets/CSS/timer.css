@@ -49,8 +49,10 @@ input#min {
   display: flex;
   font-size: 3.25em;
   position: relative;
-    bottom: 0.075em;
+  left: -0.6rem;
+  bottom: 0.075em;
   width: 0.025em;
+  margin: 0 0.6rem;
 }
 
 #min {
