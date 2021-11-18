@@ -1,16 +1,14 @@
-
 /* Styled for iPhone @ 375px */
 /* Find styling for different screen sizes in responsive css file */
 /* Find root color palette and global styling in reset css file */
-
 
 /* Footer Styling */
 footer {
     background-color: rgba(0, 0, 0, 0.25);
     display: flex;
-        align-content: flex-end;
-        flex-direction: row;
-        justify-content: space-between;
+    align-content: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
     font-size: 0.25em;
     padding-top: 2.5em;
     padding-bottom: 3em;
@@ -20,7 +18,7 @@ footer {
 }
 .footer-container {
     display: flex;
-        justify-content: space-evenly;
+    justify-content: space-evenly;
     padding-left: 20px;
     width: 100%;
 }

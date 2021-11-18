@@ -1,20 +1,18 @@
-
 /* Styled for iPhone @ 375px */
 /* Find styling for different screen sizes in responsive css file */
 /* Find root color palette and global styling in reset css file */
 
-
 /* Menu / Nav Styling */
 #menu-icon {
-  position: absolute;
+    position: absolute;
     right: 1em;
     top: 1.25em;
-  display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: flex-end;
-  height: 1em;
-  width: 1em;
-  opacity: 0.75;
+    height: 1em;
+    width: 1em;
+    opacity: 0.75;
 }
 
 /* #menu-icon:hover {
@@ -22,43 +20,42 @@
 } */
 
 .menu {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: rgba(0,0,0, 0.9);
-  overflow-x: hidden;
-  transition: 0.5s;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
 }
 
 .menu-content {
-  position: relative;
-  top: 10%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
 }
 
 a.menu-links {
-
-  color: var(--txt-03);
-  display: block;
-  font-size: 0.75em;
-  padding: 0.5em 0 0.5em 0.5em;
-  text-align: left;
-  text-decoration: none;
-  transition: 0.3s;
+    color: var(--txt-03);
+    display: block;
+    font-size: 0.75em;
+    padding: 0.5em 0 0.5em 0.5em;
+    text-align: left;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
 .menu .closebtn {
-  color: var(--txt-02);
-  font-size: 1.5em;
-  position: absolute;
+    color: var(--txt-02);
+    font-size: 1.5em;
+    position: absolute;
     top: 0.75em;
     right: 1em;
-  text-decoration: none;
+    text-decoration: none;
 }
 
 a.menu-links:hover,
@@ -66,14 +63,16 @@ a.menu-links:focus,
 .closebtn:hover,
 .closebtn:focus,
 .closebtn:active {
-  color: var(--txt-01);
+    color: var(--txt-01);
 }
 
 @media screen and (max-height: 450px) {
-  .menu a {font-size: 20px}
-  .menu .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
+    .menu a {
+        font-size: 20px;
+    }
+    .menu .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
 }

@@ -1,19 +1,18 @@
-
 /* Global Styling */
 
-:root{
-    --accent-01: #00D0FE;
-    --accent-02: #7A8AFB;
-    --accent-03: #FE6949;
-    --accent-03-muted: #A65446;
-    --txt-01: #EDEDED;
-    --txt-02: #B3B3B3;
+:root {
+    --accent-01: #00d0fe;
+    --accent-02: #7a8afb;
+    --accent-03: #fe6949;
+    --accent-03-muted: #a65446;
+    --txt-01: #ededed;
+    --txt-02: #b3b3b3;
     --txt-03: #818181;
     --txt-04: #575757;
-    --background-01:#333335;
+    --background-01: #333335;
     --background-02: #181818;
     --background-03: #121212;
-    --button-01: #00687F;
+    --button-01: #00687f;
     --button-hover: rgba(85, 187, 255, 0.15);
     --screen: rgba(0, 0, 0, 0.25);
 }
@@ -24,7 +23,7 @@
     font-family: 'Red Hat Mono', monospace;
     font-size: 100%;
     margin: 0;
-	padding: 0;
+    padding: 0;
     vertical-align: baseline;
 }
 html,
