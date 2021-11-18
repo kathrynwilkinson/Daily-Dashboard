@@ -1,11 +1,10 @@
-
 /* Styled for iPhone @ 375px */
 /* Find styling for different screen sizes in responsive css file */
 /* Find root color palette and global styling in reset css file */
 
 #name-picker {
     display: flex;
-        flex-direction: column;
+    flex-direction: column;
 }
 
 #name-picker button {
@@ -15,7 +14,7 @@
     background: var(--screen);
     border: solid 2px var(--txt-04);
     padding: 0.25em 0.5em;
-    transition: background .4s ease, color .4s ease;
+    transition: background 0.4s ease, color 0.4s ease;
     border-radius: 5px;
     margin: auto;
     margin-bottom: 0.25em;
@@ -23,13 +22,13 @@
 
 #name-picker button#nameBtn {
     position: absolute;
-        bottom: 0.25em;
-        left: 1em;
+    bottom: 0.25em;
+    left: 1em;
 }
 #name-picker button#clearBtn {
     position: absolute;
-        bottom: 0.25em;
-        right: 1em;
+    bottom: 0.25em;
+    right: 1em;
 }
 .name-btns {
     display: flex;
@@ -47,11 +46,11 @@
     font-size: 2em;
     list-style-type: none;
     margin: 2em 0 2em 0;
-
+    padding: 0.5rem;
 }
 
 #randomName {
     color: var(--accent-03);
-    font-size: 1.25em;
+    font-size: 1em;
     text-align: center;
 }
