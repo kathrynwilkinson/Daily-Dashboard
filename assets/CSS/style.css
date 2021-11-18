@@ -115,3 +115,30 @@ footer {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+/* styles for the drop rich text div */
+#agenda-today, #agenda-tomorrow {
+    margin: 0.25rem;
+    max-width: inherit;
+}
+
+#agenda-today > * , #agenda-tomorrow > * {
+    width: 100%;
+}
+
+.ck-editor {
+    overflow: hidden;
+}
+
+.ck-editor__main {
+    font-size: 0.5rem;
+    font-weight: 600;
+    color: black;
+}
+
+.ck-toolbar {
+    display: none !important;
+}
+
+div[role=presentation], .ck-content {
+    height:100%;
+}
