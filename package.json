@@ -1,0 +1,22 @@
+{
+  "name": "daily-dashboard",
+  "version": "1.0.0",
+  "description": "daily dashboard for virtual classroom",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NAHco-code/Daily-Dashboard.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NAHco-code/Daily-Dashboard/issues"
+  },
+  "homepage": "https://github.com/NAHco-code/Daily-Dashboard#readme",
+  "dependencies": {
+    "calendar-dates": "^2.7.0"
+  }
+}
