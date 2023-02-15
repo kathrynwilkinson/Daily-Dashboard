@@ -22,7 +22,7 @@ In progress
 
 ## Contributing
 
-- Kathryn Wilkinson: <https://github.com/NAHco-code>
+- Kathryn Wilkinson: <https://github.com/kathrynwilkinson>
 - Michael Oconnor: <https://github.com/oconnor97>
 - Alyssa Wilson: <https://github.com/awilson80>
 - Jon Jackson: <https://github.com/ocskier>
